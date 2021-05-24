@@ -17,7 +17,7 @@
     * [ESPHome](#ESPHome)
     * [HASS](#HASS)
 * [DIY](#DIY)
-
+* [最后](#最后)
 
 ## `硬件`
 
@@ -27,20 +27,20 @@
 
 | 名称 | 型号 | 数量 | PCB标注 | 链接 |
 | ----- | ----- | ----: | :----: | :----: |
-| 3MM/F3 白发粉红 发光二极管 | 颜色很多 | 1 | LED | [购买](https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.4.4e4a74846spFaM&id=544570466024) |
-| 单排针 间距2.54MM | 1 * 40P| 1 | 5V GND RX TX | [购买](https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.13.4e4a74846spFaM&id=553875848479) |
-| VS/HX1838/PC638 红外接收头 || 1 | U3 | [购买](https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.22.4e4a74846spFaM&id=522552967131) |
-| 3MM 940nm红外发射管 || 2 | U1 / U2 | [购买](https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.31.4e4a74846spFaM&id=522572541770) |
-| 光敏电阻5516 | 5516 | 1 | R1 | [购买](https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.40.4e4a74846spFaM&id=522556415238) |
-| 微型人体红外感应模块 | AS312 | 1 | CGQ1 | [购买](https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.49.4e4a74846spFaM&id=557748825353) |
-| AMS1117-3.3 稳压电源芯片降压IC | AMS1117-3.3 | 1 | U6 | [购买](https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.58.4e4a74846spFaM&id=522579028878) |
-| ESP-12S模块 || 1 | ESP12S | [购买](https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.65.4e4a74846spFaM&id=542762874623) |
-| 贴片4 * 4 * 1.5/3.0MM 微动/按钮开关 | 4 * 4 * 1.5 | 1 | SW | [购买](https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.86.4e4a74846spFaM&id=557115198331) |
-| 贴片 S9014 J6/1F/T04/L6 100MA 三极管 SOT-23 || 1 | Q1 | [购买](https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.93.4e4a74846spFaM&id=522573662856) |
-| 0603贴片电阻 1MΩ 1兆欧 1/10W 精度±1% || 1 | R2 | [购买](https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.79.4e4a74846spFaM&id=525898476191) |
-| 315MHZ/433MHZ弹簧天线 | 信号不佳可买 | 1 | - | [购买](https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.72.4e4a74846spFaM&id=606965691110) |
-| 220V转5V700mA电源模块 | 5V700mA | 1 | - | [购买](https://detail.tmall.com/item.htm?id=543443029399&spm=a1z09.2.0.0.1be02e8dzfVHLt&_u=klljdph03b6) |
-| 86型人体感应开关面板 || 1 | - | [购买](https://detail.tmall.com/item.htm?id=622077644993&spm=a1z09.2.0.0.1be02e8dzfVHLt&_u=klljdphb2dd) |
+| 3MM/F3 白发粉红 发光二极管 | 颜色很多 | 1 | LED | [购买](https://item.taobao.com/item.htm?id=544570466024) |
+| 单排针 间距2.54MM | 1 * 40P| 1 | 5V GND RX TX | [购买](https://item.taobao.com/item.htm?id=553875848479) |
+| VS/HX1838/PC638 红外接收头 || 1 | U3 | [购买](https://item.taobao.com/item.htm?id=522552967131) |
+| 3MM 940nm红外发射管 || 2 | U1 / U2 | [购买](https://item.taobao.com/item.htm?id=522572541770) |
+| 光敏电阻5516 | 5516 | 1 | R1 | [购买](https://item.taobao.com/item.htm?id=522556415238) |
+| 微型人体红外感应模块 | AS312 | 1 | CGQ1 | [购买](https://item.taobao.com/item.htm&id=557748825353) |
+| AMS1117-3.3 稳压电源芯片降压IC | AMS1117-3.3 | 1 | U6 | [购买](https://item.taobao.com/item.htm?id=522579028878) |
+| ESP-12S模块 || 1 | ESP12S | [购买](https://item.taobao.com/item.htm?id=542762874623) |
+| 贴片4 * 4 * 1.5/3.0MM 微动/按钮开关 | 4 * 4 * 1.5 | 1 | SW | [购买](https://item.taobao.com/item.htm?id=557115198331) |
+| 贴片 S9014 J6/1F/T04/L6 100MA 三极管 SOT-23 || 1 | Q1 | [购买](https://item.taobao.com/item.htm?id=522573662856) |
+| 0603贴片电阻 1MΩ 1兆欧 1/10W 精度±1% || 1 | R2 | [购买](https://item.taobao.com/item.htm?id=525898476191) |
+| 315MHZ/433MHZ弹簧天线 | 信号不佳可买 | 1 | - | [购买](https://item.taobao.com/item.htm?id=606965691110) |
+| 220V转5V700mA电源模块 | 5V700mA | 1 | - | [购买](https://detail.tmall.com/item.htm?id=543443029399) |
+| 86型人体感应开关面板 || 1 | - | [购买](https://detail.tmall.com/item.htm?id=622077644993) |
 
 ### `PCB`
 
@@ -169,8 +169,8 @@ switch:
 
 ## `DIY`
 
-模块没啥问题下一步就可以给模块换上外壳了（[86型人体感应开关面板](https://detail.tmall.com/item.htm?id=622077644993&spm=a1z09.2.0.0.1be02e8dzfVHLt&_u=klljdphb2dd)），直接看图和视频了
+模块没啥问题下一步就可以给模块换上外壳了（[86型人体感应开关面板](https://detail.tmall.com/item.htm?id=622077644993)），直接看图和视频了
 
 ## `最后`
 
-这个模块自己也是从最基础的一个个传感器慢慢测试过来的，最终形成了今天的样子。其实还有很多改进的地方，比如`PCB`长度应该再短`0.5mm`（有点长不太好塞进壳），`ESP12S`其实可以换成`ESP32`模块（例如`ESP32-WROOM-32UE`），更小，可根换天线，且多了蓝牙。不过蓝牙对我没啥用，并且贵了一点，所以最后还是选择了`ESP12S`，感兴趣的小伙伴可以自行修改原理图和`PCB`，有其他好玩的传感器能塞进去也欢迎告诉我
+这个模块自己也是从最基础的一个个传感器慢慢测试过来的，最终形成了今天的样子。其实还有很多改进的地方，比如`PCB`长度应该再短`0.5mm`（有点长不太好塞进壳），`ESP12S`其实可以换成`ESP32`模块（例如`ESP32-WROOM-32UE`），更小，可更换天线，且多了蓝牙。不过蓝牙对我没啥用，并且贵了一点，所以最后还是选择了`ESP12S`，感兴趣的小伙伴可以自行修改原理图和`PCB`，有其他好玩的传感器能塞进去也欢迎告诉我
