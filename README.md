@@ -32,7 +32,7 @@
 | VS/HX1838/PC638 红外接收头 || 1 | U3 | [购买](https://item.taobao.com/item.htm?id=522552967131) |
 | 3MM 940nm红外发射管 || 2 | U1 / U2 | [购买](https://item.taobao.com/item.htm?id=522572541770) |
 | 光敏电阻5516 | 5516 | 1 | R1 | [购买](https://item.taobao.com/item.htm?id=522556415238) |
-| 微型人体红外感应模块 | AS312 | 1 | CGQ1 | [购买](https://item.taobao.com/item.htm&id=557748825353) |
+| 微型人体红外感应模块 | AS312 | 1 | CGQ1 | [购买](https://item.taobao.com/item.htm?id=557748825353) |
 | AMS1117-3.3 稳压电源芯片降压IC | AMS1117-3.3 | 1 | U6 | [购买](https://item.taobao.com/item.htm?id=522579028878) |
 | ESP-12S模块 || 1 | ESP12S | [购买](https://item.taobao.com/item.htm?id=542762874623) |
 | 贴片4 * 4 * 1.5/3.0MM 微动/按钮开关 | 4 * 4 * 1.5 | 1 | SW | [购买](https://item.taobao.com/item.htm?id=557115198331) |
