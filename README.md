@@ -100,6 +100,13 @@ logger:
 
 api:
   password: '#api密码#'
+  services:
+    - service: send_raw_command
+      variables:
+        command: int[]
+      then:
+        - remote_transmitter.transmit_raw:
+            code: !lambda 'return command;'
 
 ota:
   password: '#ota密码#'
