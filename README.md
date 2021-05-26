@@ -55,7 +55,7 @@
 ## `软件`
 
 `Home Assistant`就不用多介绍了，模块系统是`ESPHome`，自动化用的`Node-RED`（不做介绍，配合`Home Assistant`很好用），都是`Docker`安装，个人习惯`Docker`数据或配置都喜欢放`/opt`目录，下面是`docker-compose.yaml`，
-  ```ini
+```yaml
   homeassistant:
     image: homeassistant/home-assistant:stable
     container_name: homeassistant
@@ -77,14 +77,13 @@
       - TZ=Asia/Shanghai
     network_mode: host
     restart: always
-
-  ```
+```
 
 ### `ESPHome`
 
 主要有一下几个配置：[1.红外接收](https://esphome.io/components/remote_receiver.html?highlight=remote_receiver)、[2.红外发送](https://esphome.io/components/remote_transmitter.html?highlight=remote_receiver)、[3.亮度](https://esphome.io/components/sensor/adc.html?highlight=adc)、[4.人体传感器](https://esphome.io/components/binary_sensor/index.html?highlight=binary_sensor)、[5.LED指示灯](https://esphome.io/components/switch/gpio.html?highlight=switch)，替换`##`为自己的，然后浏览器打开`ESPHome`（ 默认端口`6052`，一般是`http://192.168.x.x:6052` ）新建一个自己的配置例如名称为`esp12s_demo`，然后其他的随便填，保存后点击`EDIT`，把刚新增的配置直接替换为下方自己的配置，再点击保存，关闭后点击配置右上角三个点，点击`Compile`，开始编辑固件，编译结束后可以点击，`DOWNLOAD BINARY`下载刚编辑的固件,用杜邦线将模块的`5V`，`GND`，`RX`，`TX`分别连接到`CH341A`(其他编程器也可以，淘宝几块钱一个)编程器上对应的上面（注意`RX`和`TX`需要掉换了接就是模块的`RX`接编程器`TX`，模块的`TX`接编程器`RX`），编程器调整套TTL挡位，然后按住模块的微动开关插入电脑`USB`，打开[ESPHome刷机工具](https://github.com/esphome/esphome-flasher/releases),选择好端口和刚下载的固件，点击刷机按钮开始刷机，刷机完成后`ESPHome`管理界面能识别到上线的模块变成绿色。也可以打开模块对应的`IP`地址（可以在`ESPHome`管理界面`LOG`里中看到实际IP），并测试五个传感器是否正常
 
-  ```ini
+```yaml
 esphome:
   name: esp12s_demo
   platform: ESP8266
@@ -169,7 +168,7 @@ switch:
       - remote_transmitter.transmit_raw:
           carrier_frequency: 38kHz
           code: [#红外接收到的raw码#]
-  ```
+```
 
 ### `HASS`
 
