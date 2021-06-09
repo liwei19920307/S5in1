@@ -164,11 +164,6 @@ light:
     name: "esp12s_demo_led"
 
 switch:
-  - platform: gpio
-    name: "esp12s_demo_led"
-    pin:
-      number: 12
-      inverted: yes
   # 6.调用（2.红外发送）来发送（1.红外接收）的RAW数据实现红外万能遥控
   - platform: template
     name: esp12s_demo_ac_on
