@@ -149,8 +149,21 @@ binary_sensor:
     filters:
     - delayed_on: 5s
 
+output:
+  - platform: esp8266_pwm
+    pin:
+      number: 12
+      inverted: yes
+    frequency: 1000 Hz
+    id: esp12s_demo_pwm
+
+# 5.PWM LED指示灯
+light:
+  - platform: monochromatic
+    output: esp12s_demo_pwm
+    name: "esp12s_demo_led"
+
 switch:
-  # 5.LED指示灯
   - platform: gpio
     name: "esp12s_demo_led"
     pin:
