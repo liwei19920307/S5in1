@@ -105,8 +105,10 @@ api:
       variables:
         command: int[]
       then:
+        - delay: 1s
         - remote_transmitter.transmit_raw:
             code: !lambda 'return command;'
+            carrier_frequency: 38kHz
 
 ota:
   password: '#ota密码#'
