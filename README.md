@@ -37,7 +37,7 @@
 | AMS1117-3.3 稳压电源芯片降压IC | AMS1117-3.3 | 1 | U6 | [购买](https://item.taobao.com/item.htm?id=522579028878) |
 | ESP-12S模块 || 1 | ESP12S | [购买](https://item.taobao.com/item.htm?id=542762874623) |
 | 贴片4 * 4 * 1.5/3.0MM 微动/按钮开关 | 4 * 4 * 1.5 | 1 | SW | [购买](https://item.taobao.com/item.htm?id=557115198331) |
-| 贴片 S9014 J6/1F/T04/L6 100MA 三极管 SOT-23 || 1 | Q1 | [购买](https://item.taobao.com/item.htm?id=522573662856) |
+| 贴片 S8050 J3Y 贴片三极管 500MA SOT-23 || 1 | Q1 | [购买](https://item.taobao.com/item.htm?id=522577964105) |
 | 0603贴片电阻 1MΩ 1兆欧 1/10W 精度±1% || 1 | R2 | [购买](https://item.taobao.com/item.htm?id=525898476191) |
 | 315MHZ/433MHZ弹簧天线 | 信号不佳可买 | 1 | - | [购买](https://item.taobao.com/item.htm?id=606965691110) |
 | 40P彩排杜邦线 | 母对母 21CM | 1 | - | [购买](https://item.taobao.com/item.htm?id=558182761958) |
