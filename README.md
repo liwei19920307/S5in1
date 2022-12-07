@@ -1,6 +1,8 @@
 
 # S5in1
 
+## 不再维护
+
 ## 简介
 ![PCB_3D](./img/PCB_3D.png)
 ![WALL](./img/WALL.jpeg)
